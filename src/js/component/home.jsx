@@ -44,13 +44,13 @@ const accessoriesCard = {
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-dark">
       <header>
         <NavBar />
       </header>
       <main>
         <Jumbotron />
-        <section className="cards-section-container">
+        <section className="cards-section-container bg-dark">
           <CardsSection {...weaponCard} />
           <CardsSection {...armorCard} />
           <CardsSection {...potionsCard} />

@@ -1,7 +1,7 @@
 // Jumbotron.jsx
 import React from "react";
 import "../../styles/jumbotron-style.css";
-import backgroundImg from "../../img/main.jpg";
+import backgroundImg from "../../img/backgorund-img.jpg";
 
 const Jumbotron = () => {
   return (
