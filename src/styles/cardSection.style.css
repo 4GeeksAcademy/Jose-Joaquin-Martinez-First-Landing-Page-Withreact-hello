@@ -1,0 +1,44 @@
+.cards-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background: lightgray;
+  border-radius: 5px;
+  margin: 0 2px 10px;
+  box-sizing: border-box;
+  max-width: 450px;
+  border: 2px solid black;
+}
+
+.card-img-top {
+  align-self: center;
+  width: 5rem;
+  height: auto;
+  margin-top: 0.5rem;
+  border-radius: 20%;
+  border: 1px solid black;
+}
+.card-body {
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+.card h5 {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+.shop-btn {
+  font-weight: bold;
+  background-color: white;
+  margin: 0.5rem;
+}
+.shop-btn:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}

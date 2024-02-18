@@ -1,0 +1,12 @@
+.footer-container {
+  text-align: center;
+}
+
+.footer-container p {
+  color: white;
+  margin: 0;
+}
+.footer-container img {
+  height: 1rem;
+  width: 1rem;
+}

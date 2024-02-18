@@ -1,0 +1,27 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  animation: enhancer-navbar linear both;
+  animation-timeline: scroll(root);
+  animation-range: 0 200px;
+}
+
+@keyframes enhancer-navbar {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+.navbar-container {
+  margin: 0rem 2rem;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+  border-radius: 5px;
+}
